@@ -31,7 +31,7 @@ console.log('Full Name:', fullName)
   - Console.log your last favorite food 
 */
 console.log('First favorite food:', me.favThreeFoods[0])
-console.log('Last favorite food:', me.favThreeFoods[2])
+console.log('Last favorite food:', me.favThreeFoods[me.favThreeFoods.length - 1])
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
@@ -52,3 +52,4 @@ console.log('Updated shoe count:', me.shoeCount)
 me.favoriteColor = 'Blue'
 
 console.log('Added favorite color:', me.favoriteColor)
+console.log('Updated about me:', me)
